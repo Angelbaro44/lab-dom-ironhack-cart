@@ -2,7 +2,8 @@
 hello
 function updateSubtotal(product) {
   console.log('Calculating subtotal, yey!');
-
+hello
+hello
   //... your code goes here
 }
 
