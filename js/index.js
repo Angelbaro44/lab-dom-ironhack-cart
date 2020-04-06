@@ -1,11 +1,27 @@
 // ITERATION 1
-hello
+
 function updateSubtotal(product) {
   console.log('Calculating subtotal, yey!');
-hello
-hello
-  //... your code goes here
+  var price = document.querySelector(".price > span").innerText;
+  var qty = document.querySelector("table > tbody > tr > td > input[type=number]").value;
+  var sub = document.querySelector("#cart > tbody > tr > td.subtotal > span").innerText = (price * qty);
+  document.querySelector("#total-value > span").innerText = sub
+  
+  console.log(sub)
+  console.log(price)
+  console.log(qty)
+
 }
+
+
+
+
+
+
+
+
+
+
 
 function calculateAll() {
   // code in the following two lines is added just for testing purposes.
