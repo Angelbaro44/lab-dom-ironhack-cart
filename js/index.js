@@ -12,7 +12,7 @@ function calculateAll() {
   const singleProduct = document.querySelector('.product');
   updateSubtotal(singleProduct);
   // end of test
-
+hello
   // ITERATION 2
   //... your code goes here
 
